@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2189,5): warning MSB9008: указанный проект C:\Users\mdiva\Desktop\Github_max_iv\SEM_4\build\ZERO_CHECK.vcxproj не существует.
+  Building Custom Rule C:/Users/mdiva/Desktop/Github_max_iv/SEM_4/CMakeLists.txt
+  CMake is re-running because C:/Users/mdiva/Desktop/Github_max_iv/SEM_4/build/CMakeFiles/generate.stamp dependency file is missing.
+CUSTOMBUILD : CMake error : The source directory "C:/Users/mdiva/Desktop/Github_max_iv/SEM_4" does not appear to contain CMakeLists.txt.
+  Specify --help for usage, or press the help button on the CMake GUI.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): error MSB8066: пользовательская сборка для "C:\Users\mdiva\Desktop\Github_max_iv\SEM_4\CMakeLists.txt" завершила работу с кодом 1.

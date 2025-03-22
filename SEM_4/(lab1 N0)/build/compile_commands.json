@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/maxivanov/test/lab/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/myProject.dir/src/main.cpp.o -c /home/maxivanov/test/lab/build/src/main.cpp",
+  "file": "/home/maxivanov/test/lab/build/src/main.cpp",
+  "output": "CMakeFiles/myProject.dir/src/main.cpp.o"
+}
+]

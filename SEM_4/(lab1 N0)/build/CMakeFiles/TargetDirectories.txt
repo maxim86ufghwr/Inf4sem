@@ -1,0 +1,3 @@
+/home/maxivanov/test/lab/build/CMakeFiles/myProject.dir
+/home/maxivanov/test/lab/build/CMakeFiles/edit_cache.dir
+/home/maxivanov/test/lab/build/CMakeFiles/rebuild_cache.dir

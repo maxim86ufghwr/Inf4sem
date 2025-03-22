@@ -1,0 +1,10 @@
+^C:\USERS\MDIVA\DESKTOP\GITHUB_MAX_IV\SEM_4\BUILD\CMAKEFILES\C549173131C53CFF715A689AA9AF42F5\GENERATE.STAMP.RULE
+setlocal
+D:\cmake\bin\cmake.exe -SC:/Users/mdiva/Desktop/Github_max_iv/SEM_4 -BC:/Users/mdiva/Desktop/Github_max_iv/SEM_4/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/mdiva/Desktop/Github_max_iv/SEM_4/build/myProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
