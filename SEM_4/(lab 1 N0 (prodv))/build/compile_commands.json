@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/maxivanov/test/lab/Nzerprodv/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/test_one.dir/tests/test1.cpp.o -c /home/maxivanov/test/lab/Nzerprodv/tests/test1.cpp",
+  "file": "/home/maxivanov/test/lab/Nzerprodv/tests/test1.cpp",
+  "output": "CMakeFiles/test_one.dir/tests/test1.cpp.o"
+},
+{
+  "directory": "/home/maxivanov/test/lab/Nzerprodv/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/test_two.dir/tests/test2.cpp.o -c /home/maxivanov/test/lab/Nzerprodv/tests/test2.cpp",
+  "file": "/home/maxivanov/test/lab/Nzerprodv/tests/test2.cpp",
+  "output": "CMakeFiles/test_two.dir/tests/test2.cpp.o"
+},
+{
+  "directory": "/home/maxivanov/test/lab/Nzerprodv/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/test_three.dir/tests/test3.cpp.o -c /home/maxivanov/test/lab/Nzerprodv/tests/test3.cpp",
+  "file": "/home/maxivanov/test/lab/Nzerprodv/tests/test3.cpp",
+  "output": "CMakeFiles/test_three.dir/tests/test3.cpp.o"
+}
+]

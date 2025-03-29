@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMatLib.a CMakeFiles/MatLib.dir/matrix.cpp.o CMakeFiles/MatLib.dir/vector.cpp.o
+/usr/bin/ranlib libMatLib.a
