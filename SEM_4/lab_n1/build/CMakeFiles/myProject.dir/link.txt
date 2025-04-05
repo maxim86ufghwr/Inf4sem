@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/myProject.dir/src/main.cpp.o CMakeFiles/myProject.dir/src/Parser.cpp.o CMakeFiles/myProject.dir/src/Field.cpp.o CMakeFiles/myProject.dir/src/Cloud.cpp.o CMakeFiles/myProject.dir/src/Cow.cpp.o CMakeFiles/myProject.dir/src/ASCIIPicture.cpp.o -o myProject 

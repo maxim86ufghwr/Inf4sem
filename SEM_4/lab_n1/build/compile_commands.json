@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/maxivanov/test/lab_n1/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/myProject.dir/src/main.cpp.o -c /home/maxivanov/test/lab_n1/src/main.cpp",
+  "file": "/home/maxivanov/test/lab_n1/src/main.cpp",
+  "output": "CMakeFiles/myProject.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/maxivanov/test/lab_n1/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/myProject.dir/src/Parser.cpp.o -c /home/maxivanov/test/lab_n1/src/Parser.cpp",
+  "file": "/home/maxivanov/test/lab_n1/src/Parser.cpp",
+  "output": "CMakeFiles/myProject.dir/src/Parser.cpp.o"
+},
+{
+  "directory": "/home/maxivanov/test/lab_n1/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/myProject.dir/src/Field.cpp.o -c /home/maxivanov/test/lab_n1/src/Field.cpp",
+  "file": "/home/maxivanov/test/lab_n1/src/Field.cpp",
+  "output": "CMakeFiles/myProject.dir/src/Field.cpp.o"
+},
+{
+  "directory": "/home/maxivanov/test/lab_n1/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/myProject.dir/src/Cloud.cpp.o -c /home/maxivanov/test/lab_n1/src/Cloud.cpp",
+  "file": "/home/maxivanov/test/lab_n1/src/Cloud.cpp",
+  "output": "CMakeFiles/myProject.dir/src/Cloud.cpp.o"
+},
+{
+  "directory": "/home/maxivanov/test/lab_n1/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/myProject.dir/src/Cow.cpp.o -c /home/maxivanov/test/lab_n1/src/Cow.cpp",
+  "file": "/home/maxivanov/test/lab_n1/src/Cow.cpp",
+  "output": "CMakeFiles/myProject.dir/src/Cow.cpp.o"
+},
+{
+  "directory": "/home/maxivanov/test/lab_n1/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/myProject.dir/src/ASCIIPicture.cpp.o -c /home/maxivanov/test/lab_n1/src/ASCIIPicture.cpp",
+  "file": "/home/maxivanov/test/lab_n1/src/ASCIIPicture.cpp",
+  "output": "CMakeFiles/myProject.dir/src/ASCIIPicture.cpp.o"
+}
+]
