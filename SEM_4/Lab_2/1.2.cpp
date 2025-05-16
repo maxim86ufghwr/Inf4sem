@@ -10,7 +10,7 @@ class Stack {
 
     public:
 
-    Container::value_type top() {
+    typename Container::value_type top() {
         if (not(is_empty()))
         return *(container.cend() - 1);
 
@@ -25,7 +25,7 @@ class Stack {
             throw std::runtime_error("Stack is empty");
     }
 
-    void push (Container::value_type value) {
+    void push (typename Container::value_type value) {
         container.push_back(value);
     }
 

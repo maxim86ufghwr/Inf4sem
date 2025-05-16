@@ -4,6 +4,7 @@
 #include <chrono>
 #include <iterator>
 #include <functional>
+#include <list>
 
 template< typename RandomAccessIterator, typename Compare >
 void sort( RandomAccessIterator first, RandomAccessIterator last, Compare comp);
@@ -52,6 +53,7 @@ void my_sort(RandomAccessIterator first, RandomAccessIterator last, Compare comp
 int main(){
     std::vector<int> vec = {5, 2, 9, 1, 5, 6, 45};
     std::deque<int> deq = {3, 7, 8, 5, 2, 4, 5};
+    std::list<int> lis = {1,2,3};
 
     auto start = std::chrono::high_resolution_clock::now();
     my_sort(vec.begin(), vec.end(), std::greater<int>());
@@ -71,10 +73,13 @@ int main(){
     for (auto it = deq.cbegin(); it != deq.cend(); ++it){
         std::cout<< *it <<" ";}
     
-    
     std::cout<<std::endl;
     
-    
+    std::cout<<"here would be list:"<<std::endl;
+    my_sort(lis.begin(), lis.end(), std::greater<int>());
+    for (auto it = lis.cbegin(); it != lis.cend(); ++it){
+        std::cout<< *it <<" ";}
+
     std::cout << "Время сортировки vector: " << vec_time.count() << " секунд\n";
     std::cout << "Время сортировки deque: " << deq_time.count() << " секунд\n";
 
