@@ -18,6 +18,11 @@ Matrix Matrix::Identity(unsigned rows, unsigned cols){
     return E;
     }
 
+Matrix Matrix::Zero(unsigned rows, unsigned cols){
+    Matrix Z{rows, cols};
+    return Z;
+    }
+
 
 
 Matrix Matrix::getSpecificDeterminant(unsigned n, double determinant){

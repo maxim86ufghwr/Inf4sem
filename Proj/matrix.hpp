@@ -11,6 +11,8 @@ class Matrix {
 
 	static Matrix Identity(unsigned rows, unsigned cols);
 
+    static Matrix Zero(unsigned rows, unsigned cols);
+
 	static Matrix getSpecificDeterminant(unsigned n, double determinant);
 
     unsigned int get_rows() const;
@@ -37,6 +39,7 @@ class Matrix {
     void print_m();
 
     double get_det();
+
 };
 
 #endif
